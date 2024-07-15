@@ -14,7 +14,7 @@ def total_salary(path: str) -> (int, int):
 
 def main():
     total, average = total_salary('task1.csv')
-    print(f'Total salary: {total}, average salary: {average}')
+    print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
 
 
 if __name__ == '__main__':
